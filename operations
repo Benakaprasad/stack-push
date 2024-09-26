@@ -74,13 +74,13 @@ int main()
 int ch;int ele;
 do
 {
-printf("enter 1 for insertion");
-printf("enter 2 for deletion");
-printf("enter 3 for display");
-printf("enter 4 for plaindrome");
-printf("enter 5 for exit");
-printf("enter your choice");
-scanf("%d",ch);
+printf("enter 1 for insertion\n");
+printf("enter 2 for deletion\n");
+printf("enter 3 for display\n");
+printf("enter 4 for plaindrome\n");
+printf("enter 5 for exit\n");
+printf("enter your choice\n");
+scanf("%d",&ch);
 switch(ch)
 {
 case 1:
