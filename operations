@@ -32,7 +32,7 @@ if(top<0)
 printf("the stack is empty");
 }
 else{
-for(int i=0;i<top;i++)
+for(int i=0;i<=top;i++)
 {
 printf("the stack elements are:%d\n",stack[i]);
 }
@@ -45,18 +45,18 @@ if(top<0)
 {
 printf("stack is empty");
 }
-int ori[max],rev[max];int j=0;int flag=1;
+int ori[max],rev[max];int k=0;int flag=1;
 for(int i=0;i<top;i++)
 {
-rev[i]=stack[i];
+ori[max]=stack[i];
 }
-for(int i=top;i>=0;i--)
+for(int j=top;j>=0;j--)
 {
-rev[j++]=stack[i];
+rev[++k]=stack[j];
 }
-for(int i=0;i<top;i++)
+for(int i=0;i<=top;i++)
 {
-if(ori[i]!=rev[i])
+if(ori[max]==rev[k])
 {
 flag =0; 
 break;
