@@ -65,11 +65,11 @@ break;
 }
 if(flag)
 {
-printf("it is palindrome ");
+printf("it is palindrome\n");
 }
 else
 {
-printf("it is not a plaindorome");
+printf("it is not a plaindorome\n");
 }
 }
 int main()
