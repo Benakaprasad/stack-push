@@ -34,7 +34,7 @@ for(int i=0;i<top;i++)
 {
 printf("the stack elements are:%d\n",stack[i]);
 }
-printf("\n);
+printf("\n");
 }
 }
 void palindrome()
@@ -43,7 +43,7 @@ if(top<0)
 {
 printf("stack is empty");
 }
-int ori[max],rev[max];int j=0;flag=1;
+int ori[max],rev[max];int j=0;int flag=1;
 for(int i=0;i<top;i++)
 {
 rev[i]=stack[i];
