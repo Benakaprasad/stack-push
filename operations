@@ -1,0 +1,11 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<ctype.h>
+#define mac 100
+int stack[max];
+int top =-1
+void push(int ele)
+{
+if(top>=max-)
+{
+print
