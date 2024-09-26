@@ -1,9 +1,9 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<ctype.h>
-#define mac 100
+#define max 100
 int stack[max];
-int top =-1
+int top =-1;
 void push(int ele)
 {
 if(top>=max-1)
@@ -12,7 +12,7 @@ printf("the stack is full");
 }
 else{
 stack[++top]=ele;
-}
+}}
 int pop()
 {
 if(top<0)
@@ -34,10 +34,15 @@ for(int i=0;i<top;i++)
 {
 printf("the stack elements are:%d\n",stack[i]);
 }
+printf("\n);
 }
 }
 void palindrome()
 {
+if(top<0)
+{
+printf("stack is empty");
+}
 int ori[max],rev[max];int j=0;flag=1;
 for(int i=0;i<top;i++)
 {
