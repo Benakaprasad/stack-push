@@ -12,6 +12,7 @@ printf("the stack is full");
 }
 else{
 stack[++top]=ele;
+printf("the element is pushed %d\n",ele);
 }}
 int pop()
 {
@@ -20,7 +21,8 @@ if(top<0)
 printf("the stack is empty");
 }
 else{
-return stack[top--];
+int ele=stack[top--];
+printf("the element is popped %d\n",ele);
 }
 }
 void display()
