@@ -32,9 +32,10 @@ if(top<0)
 printf("the stack is empty");
 }
 else{
+printf("stack elements are:");
 for(int i=0;i<=top;i++)
 {
-printf("the stack elements are:%d\n",stack[i]);
+printf("%d\n",stack[i]);
 }
 printf("\n");
 }
